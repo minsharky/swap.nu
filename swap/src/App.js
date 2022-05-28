@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+import React from "react";
+//import ReactDOM from "react-dom"
+
+import './App.css';
+
+import Signup from './Signup';
+function App() {
+
+  return (
+    <div>
+      <div class="name">
+
+        <h1>swap.nu</h1>
+
+      </div>
+    </div>
+  );
+}
+
+export default App;
+=======
 import './App.css';
 import React from "react";
 import Homepage from './Homepage';
@@ -26,3 +48,4 @@ function App() {
 }
 
 export default App;
+>>>>>>> f6bd0817415709f15f54dce6ae452c2398300531
