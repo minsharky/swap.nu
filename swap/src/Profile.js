@@ -3,7 +3,7 @@ import React from 'react';
 function Profile() {
 
     return(
-        <h1> hello world</h1>
+        <h1>swap.nu</h1>
     );
 }
 
