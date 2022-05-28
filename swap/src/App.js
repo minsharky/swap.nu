@@ -1,6 +1,7 @@
 import './App.css';
 import React from "react";
 import Homepage from './Homepage';
+import Profile from './Profile';
 
 import {Routes, Route} from "react-router-dom";
 
@@ -14,6 +15,7 @@ function App() {
 
        <Routes>
           <Route path="/home" element={<Homepage />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
         
       </div>
