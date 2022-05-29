@@ -32,7 +32,14 @@ const myItems = [
         text: 'Tank Top',
         value: '$3',
         image: { avatar: true, src: 'https://i.ebayimg.com/images/g/7DAAAOSwpSpe5Z~Q/s-l400.jpg' }
+      },
+      {
+        key: 'e',
+        text: 'Blue Shirt',
+        value: '$4',
+        image: { avatar: true, src: 'https://i.ebayimg.com/images/g/UyoAAOSw1xRg5Zqb/s-l500.jpg' }
       }
+      
   ]
 
 const headerFile = ({login_status}) => {
