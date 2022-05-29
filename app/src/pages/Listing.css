@@ -1,5 +1,13 @@
-.itemImage{
-    position:relative;
-    width:500px;
-    height:500px;
+
+.buysell{
+    margin: auto;
+    position: right;
+    width: 25%;
+
+}
+
+.righttext{
+    position:relative;    
+    float:right;
+    width: 25%;
 }
