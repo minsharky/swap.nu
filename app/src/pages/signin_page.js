@@ -97,6 +97,7 @@ function signin_page() {
                 <button onClick = {login}> Login </button>
 
                 <h4>Currently logged in as: </h4>
+                {user?.email}
 
                 <button onClick={(logout)}>Log out</button>
 
