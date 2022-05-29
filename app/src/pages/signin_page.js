@@ -1,9 +1,8 @@
 import React from 'react';
+import Signup from './../components/signup.js';
 
-function App() {
-    return ( 
-      <h1> Hello World! </h1>
-    );
+function Signin_page () {
+  return <Signup/>
 }
-  
-export default App;
+
+export default Signin_page;
