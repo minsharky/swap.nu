@@ -1,4 +1,5 @@
 import React from "react";
+import {useNavigate} from "react-router-dom";
 
 import {Button, Grid, Image, List, Checkbox, Table} from 'semantic-ui-react'
 import './Listing.css';
@@ -17,6 +18,7 @@ const headerFile = ({login_status}) => {
   };
 
 function Listing() {
+    const navigate = useNavigate();
     return(
         <div>
             <Header/>
@@ -34,8 +36,8 @@ Tina Chen says... “Minseo Kim is a great and reliable seller! WIll trade from 
         </div>    
 
         <div class = "buysell">
-                    <Button> Send Offer to Buy</Button>
-                    <Button> Send Trade Offer</Button>
+                    <Button > Send Offer to Buy</Button>
+                    <Button onClick={() => navigate('/maketrade')}> Send Trade Offer</Button>
         </div>      
 
     </div>
