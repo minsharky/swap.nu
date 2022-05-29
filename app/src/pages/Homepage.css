@@ -1,0 +1,55 @@
+.header{
+    position:relative;
+    display: inline-block;
+    width:100%;
+    top:10px;
+}
+
+.field{
+    width:100%;
+    font-size: 20px;
+}
+
+.logo{
+    position:relative;
+    left:50px;
+    font-size:30px;
+}
+
+.searchHead{
+    position:relative;
+    float:center;
+}
+
+.login-signup{
+    position:relative;    
+    float:right;
+}
+
+.categories{
+    position:relative;
+    font-size:30px;
+    top:10px;
+}
+
+.filter{
+    position:relative;
+    display:inline-block;
+    font-size:20px;
+    left:20px;
+    top:10px;
+}
+
+.itemGrid{
+    position:relative;
+    display:inline-block;
+    float:right;
+    width:80%;
+    right:30px;
+    top:20px;
+}
+
+.image{
+    width:250px;
+    height:250px;
+}
