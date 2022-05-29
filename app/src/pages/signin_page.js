@@ -5,6 +5,7 @@ import {
     signInWithEmailAndPassword, 
     signOut } from "firebase/auth";
 import { auth } from './../server/firebase_auth';
+import Header from './Header.js'
 
 function signin_page() {
 
@@ -57,6 +58,7 @@ function signin_page() {
     return(
         <div className="App">
             <div>
+                <Header/>
                 <h3> Register User </h3>
                 <input placeholder = "Email"
                 onChange={(event) => {
