@@ -1,6 +1,7 @@
 import React from "react";
 import { Search, Button} from 'semantic-ui-react'
 import './Homepage.css';
+import logo from "./logo_trans.png";
 
 function Header() {
 
@@ -10,9 +11,9 @@ function Header() {
         <div class="inline fields">
             <div class="field">
                 <div class= 'logo'>
-                {/* <img src={logo} class='logo' width="115"/> */}
-                Swap NU
+                    swap
                 </div>
+                <img src={logo} class='logoPic' width="100"/>
             </div>
             <div class="field">
                 <div class = "searchHeader">
@@ -21,8 +22,8 @@ function Header() {
             </div>
             <div class="field">
                 <div class = "login-signup">
-                    <Button size='huge'>Sign Up</Button>
-                    <Button size='huge'>Login</Button>
+                    <Button inverted color = "violet" size='huge'>Sign Up</Button>
+                    <Button inverted color = "violet" size='huge'>Login</Button>
                 </div>          
             </div>
         </div>
