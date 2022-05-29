@@ -9,3 +9,16 @@ h2 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+.header{
+    position:relative;
+    left:20px;
+}
+
+.name{
+    width:200px;
+}
+
+.btnSignup{
+    position:relative;
+    left:10px;
+}
