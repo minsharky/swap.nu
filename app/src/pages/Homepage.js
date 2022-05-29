@@ -20,7 +20,6 @@ function Homepage() {
             {/* <div class = 'header'>
                 {headerFile(false)}
             </div> */}
-            
         <div/>
    
         <div class = "categories">

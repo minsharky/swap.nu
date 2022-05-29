@@ -5,6 +5,7 @@ import Profile from './pages/Profile.js';
 import Signup from './pages/Signup.js'
 import Signin_page from './pages/signin_page'
 import Listing from './pages/Listing'
+import { Helmet } from 'react-helmet'
 
 import {Routes, Route} from "react-router-dom";
 
@@ -13,7 +14,11 @@ function App() {
   return (
     
     <div>
- 
+      <Helmet>
+         <meta charSet="utf-8" />
+          <title>swap NU</title>
+          <meta name="description" content="swap on tab" />
+      </Helmet>
       <div class="header">
 
        <Routes>
