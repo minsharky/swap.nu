@@ -3,6 +3,45 @@ import {Input, Button, Dropdown} from 'semantic-ui-react'
 import React from "react";
 import Header from './Header.js'
 
+const residence = [
+    {
+      key: 'Willard',
+      text: 'Jenny Hess',
+      value: 'Jenny He',
+      image: { avatar: true, src: '/images/avatar/small/jenny.jpg' },
+    },
+    {
+      key: 'Elliot Fu',
+      text: 'Elliot Fu',
+      value: 'Elliot Fu',
+      image: { avatar: true, src: '/images/avatar/small/elliot.jpg' },
+    },
+    {
+      key: 'Stevie Feliciano',
+      text: 'Stevie Feliciano',
+      value: 'Stevie Feliciano',
+      image: { avatar: true, src: '/images/avatar/small/stevie.jpg' },
+    },
+    {
+      key: 'Christian',
+      text: 'Christian',
+      value: 'Christian',
+      image: { avatar: true, src: '/images/avatar/small/christian.jpg' },
+    },
+    {
+      key: 'Matt',
+      text: 'Matt',
+      value: 'Matt',
+      image: { avatar: true, src: '/images/avatar/small/matt.jpg' },
+    },
+    {
+      key: 'Justen Kitsune',
+      text: 'Justen Kitsune',
+      value: 'Justen Kitsune',
+      image: { avatar: true, src: '/images/avatar/small/justen.jpg' },
+    },
+  ]
+
 function Signup() {
 
     return(
@@ -34,7 +73,7 @@ function Signup() {
                 placeholder='Select Residence'
                 fluid
                 selection
-                options={friendOptions}
+                options={residence}
             />
             </div>
             <br/>
