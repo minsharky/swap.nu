@@ -2,14 +2,16 @@ import React from "react";
 import { Search, Button} from 'semantic-ui-react'
 import './Homepage.css';
 import logo from "./logo_trans.png";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+    const navigate = useNavigate();
 
   return (
 
     <div class="ui form">
         <div class="inline fields">
-            <div class="field">
+            <div class="field" onClick={() => navigate('/')}>
                 <div class= 'logo'>
                     swap
                 </div>
@@ -22,8 +24,8 @@ function Header() {
             </div>
             <div class="field">
                 <div class = "login-signup">
-                    <Button inverted color = "violet" size='huge'>Sign Up</Button>
-                    <Button inverted color = "violet" size='huge'>Login</Button>
+                    <Button onClick={() => navigate('/signup')} inverted color = "violet" size='huge' > Sign Up</Button>
+                    <Button inverted color = "violet" size='huge' onClick={() => navigate("/signin")}> Login</Button>
                 </div>          
             </div>
         </div>
