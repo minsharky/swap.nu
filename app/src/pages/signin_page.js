@@ -1,8 +1,10 @@
 import React from 'react';
-import Signup from './../components/signup.js';
 
-function Signin_page () {
-  return <Signup/>
+function signin_page() {
+
+    return(
+        <h1> hello world</h1>
+    );
 }
 
-export default Signin_page;
+export default signin_page;
