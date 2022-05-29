@@ -1,6 +1,7 @@
 // Here, we create the component for signup
 import React, { useRef} from 'react'
 import {Form, Button, Card } from 'react-bootstrap'
+import {Button} from "semantic-ui-react";
 
 export default function signup() {
     const emailRef = useRef()
