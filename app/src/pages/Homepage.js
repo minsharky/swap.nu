@@ -59,58 +59,58 @@ function Homepage() {
         <Grid>
             <Grid.Row columns={4}>
             <Grid.Column>
-                <Image src='https://i.ebayimg.com/thumbs/images/g/mfQAAOSw66JcPOI8/s-l225.jpg' />
-                <p>$40</p>
+                <Image src='https://i.ebayimg.com/images/g/UyoAAOSw1xRg5Zqb/s-l500.jpg' />
+                <p>$4</p>
             </Grid.Column>
             <Grid.Column>
-                <Image src='https://i.ebayimg.com/thumbs/images/g/xo4AAOSwe~lcPOJF/s-l225.jpg' />
-                <p>$40</p>
+                <Image src='https://azoffice.com/wp-content/uploads/2020/12/img-6865.jpg' />
+                <p>$20</p>
             </Grid.Column>
             <Grid.Column>
-                <Image src='https://i.ebayimg.com/thumbs/images/g/-F0AAOSwoRpcPN-z/s-l225.jpg' />
-                <p>$40</p>
+                <Image src='https://pixl.varagesale.com/http://s3.amazonaws.com/hopshop-image-store-production/123075710/dfb99308d9d1eab9c603113f2601c29c.jpg?_ver=large_uploader_thumbnail&w=640&h=640&fit=crop&s=9fd16fb3c4c66c00ad2b623ff27ca010' />
+                <p>$95</p>
             </Grid.Column>
             <Grid.Column>
                 <Image src='https://cdn11.bigcommerce.com/s-a4990/images/stencil/500x659/products/61/4621/Dorfman_Pacific_Roll_Up_Bucket_Hat_Light_Blue_Side__83323.1643046839.jpg?c=2' />
-                <p>$40</p>
+                <p>$6</p>
             </Grid.Column>
             </Grid.Row>
 
             <Grid.Row columns={4}>
             <Grid.Column>
-                <Image class='image' src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                <p>$40</p>
+                <Image class='image' src='https://oneupfurniture.com/wp-content/uploads/2022/04/used-2-piece-sectional-philadelphia-pa-1-1-300x300.jpg' />
+                <p>$120</p>
             </Grid.Column>
             <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                <p>$40</p>
+                <Image src='https://i.ebayimg.com/thumbs/images/g/xo4AAOSwe~lcPOJF/s-l225.jpg' />
+                <p>$9</p>
             </Grid.Column>
             <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                <p>$40</p>
+                <Image src='https://i.ebayimg.com/images/g/CIwAAOSwsExhR8ir/s-l500.jpg' />
+                <p>$3</p>
             </Grid.Column>
             <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                <p>$40</p>
+                <Image src='https://i.ebayimg.com/images/g/u-IAAOSw6dhfS~H2/s-l300.jpg' />
+                <p>$4</p>
             </Grid.Column>
             </Grid.Row>
 
             <Grid.Row columns={4}>
             <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+                <Image src='https://i.ebayimg.com/images/g/nWEAAOSwKlFcs1Un/s-l500.jpg' />
                 <p>$40</p>
             </Grid.Column>
             <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                <p>$40</p>
+                <Image src='https://i.ebayimg.com/images/g/490AAOSweYZhwz-R/s-l500.jpg' />
+                <p>$10</p>
             </Grid.Column>
             <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                <p>$40</p>
+                <Image src='https://i.ebayimg.com/images/g/jQAAAOSwV91fAM7-/s-l500.jpg' />
+                <p>$8</p>
             </Grid.Column>
             <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                <p>$40</p>
+                <Image src='https://res.cloudinary.com/pawnguru/image/fetch/c_scale,f_auto,fl_lossy,q_auto,w_200/https://www.pawnguru.com/images/item/445844/mini-fridge-with-freezer.jpg' />
+                <p>$60</p>
             </Grid.Column>
             </Grid.Row>
         </Grid>

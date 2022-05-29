@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+
 .header{
     position:relative;
     display: inline-block;
@@ -12,8 +14,16 @@
 
 .logo{
     position:relative;
-    left:50px;
-    font-size:30px;
+    display:inline-block;
+    left:40px;
+    bottom:18px;
+    font-size:50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
+.logoPic{
+    position:relative;
+    display:inline-block;
 }
 
 .searchHead{
