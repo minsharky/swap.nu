@@ -1,39 +1,17 @@
 import React from "react";
-import { Search, Button, Grid, Image, List, Checkbox, Table} from 'semantic-ui-react'
+import {Button, Grid, Image, List, Checkbox, Table} from 'semantic-ui-react'
 import './Homepage.css';
+import Header from './Header.js'
 
 function Homepage() {
     
     return(
         <div>
             <div class = 'header'>
-                <div class="ui form">
-                    <div class="inline fields">
-                        <div class="field">
-                            <div class= 'logo'>
-                                {/* <img src={logo} class='logo' width="115"/> */}
-                                Swap NU
-                            </div>
-                        </div>
-                        <div class="field">
-
-                            <div class = "searchHeader">
-                                <Search fluid input= {{fluid:true}} style = {{width:'700px'}}/>
-                            </div>
-                            
-                        </div>
-                        <div class="field">
-                            <div class = "login-signup">
-                                <Button size='huge'>Sign Up</Button>
-                                <Button size='huge'>Login</Button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
+                <Header />
             </div>
         <div/>
-
+   
         <div class = "categories">
             <Button.Group fluid color= "violet" size = "big" buttons={['Clothing', 'Furniture', 'Books', 'Services', ';)']} />
         </div>

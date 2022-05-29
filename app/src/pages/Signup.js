@@ -1,12 +1,13 @@
 import './Signup.css'
-import {Input} from 'semantic-ui-react'
-import {Button} from 'semantic-ui-react'
+import {Input, Button} from 'semantic-ui-react'
 import React from "react";
+import Header from './Header.js'
 
 function Signup() {
 
     return(
         <div>
+            <Header />
             <h1> JOIN SWAP.NU </h1>
             <h2> Your details </h2>
             <div>
