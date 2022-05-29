@@ -9,9 +9,10 @@ h2 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.header{
+.head{
     position:relative;
-    left:20px;
+    left:80px;
+    display:inline-block;
 }
 
 .name{
@@ -21,4 +22,10 @@ h2 {
 .btnSignup{
     position:relative;
     left:10px;
+}
+
+.signUpPic{
+    position:relative;
+    display:inline-block;
+    left:200px;
 }
