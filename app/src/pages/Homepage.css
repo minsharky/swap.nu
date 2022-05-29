@@ -37,7 +37,7 @@
     display:inline-block;
     font-size:20px;
     left:20px;
-    top:10px;
+    top:40px;
 }
 
 .itemGrid{
@@ -46,10 +46,14 @@
     float:right;
     width:80%;
     right:30px;
-    top:20px;
+    top:40px;
 }
 
 .image{
     width:250px;
     height:250px;
+}
+
+p{
+    font-size:20px;
 }
