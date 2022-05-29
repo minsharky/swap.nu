@@ -16,9 +16,11 @@ const headerFile = ({login_status}) => {
 function Homepage() {
     return(
         <div>
-            <div class = 'header'>
+            <Header/>
+            {/* <div class = 'header'>
                 {headerFile(false)}
-            </div>
+            </div> */}
+            
         <div/>
    
         <div class = "categories">
