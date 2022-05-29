@@ -8,8 +8,10 @@
 }
 
 .field{
+    position:relative;
     width:100%;
     font-size: 20px;
+    right:20px;
 }
 
 .logo{
@@ -55,7 +57,7 @@
     display:inline-block;
     float:right;
     width:80%;
-    right:30px;
+    right:40px;
     top:40px;
 }
 
