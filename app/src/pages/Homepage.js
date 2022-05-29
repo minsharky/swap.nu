@@ -3,6 +3,7 @@ import {Button, Grid, Image, List, Checkbox, Table} from 'semantic-ui-react'
 import './Homepage.css';
 import Header from './Header.js'
 import Header_Logged from './Header_Logged.js'
+import {useNavigate} from "react-router-dom";
 
 const headerFile = ({login_status}) => {
     if (login_status){
@@ -14,6 +15,7 @@ const headerFile = ({login_status}) => {
   };
 
 function Homepage() {
+    const navigate = useNavigate();
     return(
         <div>
             <Header/>
@@ -70,7 +72,7 @@ function Homepage() {
         <Grid>
             <Grid.Row columns={4}>
             <Grid.Column>
-                <Image src='https://i.ebayimg.com/images/g/UyoAAOSw1xRg5Zqb/s-l500.jpg' />
+                <Image onClick={() => navigate('/listing')} src='https://i.ebayimg.com/images/g/UyoAAOSw1xRg5Zqb/s-l500.jpg' />
                 <p>$4</p>
             </Grid.Column>
             <Grid.Column>
