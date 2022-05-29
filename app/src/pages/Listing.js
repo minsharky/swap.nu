@@ -1,9 +1,11 @@
 import React from "react";
+
 import {Button, Grid, Image, List, Checkbox, Table} from 'semantic-ui-react'
 import './Listing.css';
 import './Homepage.css';
 import Header from './Header.js'
 import Header_Logged from './Header_Logged.js'
+import './Listing.css'
 
 const headerFile = ({login_status}) => {
     if (login_status){
